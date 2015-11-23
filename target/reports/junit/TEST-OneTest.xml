@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="0" hostname="Manish.local" name="OneTest" skipped="0" tests="1" time="0.054" timestamp="2015-11-23T11:28:44">
+  <properties>
+    <property name="java.vendor" value="Oracle Corporation" />
+    <property name="sun.java.launcher" value="SUN_STANDARD" />
+    <property name="sonar.projectName" value="UT coverage with Ant and JaCoCo running tests" />
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers" />
+    <property name="os.name" value="Mac OS X" />
+    <property name="sonar.jacoco.reportPath" value="target/jacoco.exec" />
+    <property name="sun.boot.class.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/resources.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/rt.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/sunrsasign.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jsse.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jce.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/charsets.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/jfr.jar:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/classes" />
+    <property name="user.country.format" value="IN" />
+    <property name="java.vm.specification.vendor" value="Oracle Corporation" />
+    <property name="ant.home" value="/usr/local/Cellar/ant/1.9.4/libexec" />
+    <property name="sonar.projectVersion" value="1.0" />
+    <property name="java.runtime.version" value="1.8.0_25-b17" />
+    <property name="sonar.jdbc.password" value="password" />
+    <property name="user.name" value="manish" />
+    <property name="sonar.surefire.reportsPath" value="target/reports/junit" />
+    <property name="build.dir" value="target" />
+    <property name="user.language" value="en" />
+    <property name="sun.boot.library.path" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib" />
+    <property name="reports.dir" value="target/reports" />
+    <property name="ant.project.default-target" value="all" />
+    <property name="ant.project.name" value="UT coverage with Ant and JaCoCo running tests" />
+    <property name="reports.junit.xml.dir" value="target/reports/junit" />
+    <property name="java.version" value="1.8.0_25" />
+    <property name="user.timezone" value="Asia/Kolkata" />
+    <property name="sun.arch.data.model" value="64" />
+    <property name="http.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="java.endorsed.dirs" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/endorsed" />
+    <property name="sonar.jdbc.username" value="root" />
+    <property name="sun.cpu.isalist" value="" />
+    <property name="sun.jnu.encoding" value="UTF-8" />
+    <property name="file.encoding.pkg" value="sun.io" />
+    <property name="file.separator" value="/" />
+    <property name="java.specification.name" value="Java Platform API Specification" />
+    <property name="sonar.sources" value="src" />
+    <property name="classes.dir" value="target/classes" />
+    <property name="java.class.version" value="52.0" />
+    <property name="user.country" value="US" />
+    <property name="java.home" value="/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre" />
+    <property name="java.vm.info" value="mixed mode" />
+    <property name="ant.file" value="/Users/manish/Desktop/jacoco-sample/build.xml" />
+    <property name="os.version" value="10.10.5" />
+    <property name="sonar.jdbc.driverClassName" value="com.mysql.jdbc.Driver" />
+    <property name="path.separator" value=":" />
+    <property name="lib.junit.dir" value="lib" />
+    <property name="java.vm.version" value="25.25-b02" />
+    <property name="ant.library.dir" value="/usr/local/Cellar/ant/1.9.4/libexec/lib" />
+    <property name="java.awt.printerjob" value="sun.lwawt.macosx.CPrinterJob" />
+    <property name="sun.io.unicode.encoding" value="UnicodeBig" />
+    <property name="awt.toolkit" value="sun.lwawt.macosx.LWCToolkit" />
+    <property name="_jacoco.agentFile" value="/var/folders/sq/fscbk_112lg7wpvv_pc36fzr0000gp/T/jacocoagent4779123772100997816.jar" />
+    <property name="sonar.tests" value="test" />
+    <property name="socksNonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="ftp.nonProxyHosts" value="local|*.local|169.254/16|*.169.254/16" />
+    <property name="user.home" value="/Users/manish" />
+    <property name="sonar.binaries" value="target/classes" />
+    <property name="sonar.language" value="java" />
+    <property name="java.specification.vendor" value="Oracle Corporation" />
+    <property name="test.dir" value="test" />
+    <property name="java.library.path" value="/Users/manish/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:." />
+    <property name="java.vendor.url" value="http://java.oracle.com/" />
+    <property name="java.vm.vendor" value="Oracle Corporation" />
+    <property name="gopherProxySet" value="false" />
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment" />
+    <property name="sun.java.command" value="org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner OneTest skipNonTests=false filtertrace=true haltOnError=false haltOnFailure=false showoutput=false outputtoformatters=true logfailedtests=true threadid=0 logtestlistenerevents=false formatter=org.apache.tools.ant.taskdefs.optional.junit.XMLJUnitResultFormatter,/Users/manish/Desktop/jacoco-sample/target/reports/junit/TEST-OneTest.xml crashfile=/Users/manish/Desktop/jacoco-sample/junitvmwatcher8285157499866033262.properties propsfile=/Users/manish/Desktop/jacoco-sample/junit9029867312868187137.properties" />
+    <property name="java.class.path" value="/Users/manish/Desktop/jacoco-sample/target/classes:/Users/manish/Desktop/jacoco-sample/lib/jacocoant.jar:/Users/manish/Desktop/jacoco-sample/lib/junit-4.10.jar:/Users/manish/Desktop/jacoco-sample/lib/sonar-ant-task-2.2.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant-launcher.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant-junit.jar:/usr/local/Cellar/ant/1.9.4/libexec/lib/ant-junit4.jar:/var/folders/sq/fscbk_112lg7wpvv_pc36fzr0000gp/T/jacocoagent4779123772100997816.jar" />
+    <property name="ant.version" value="Apache Ant(TM) version 1.9.4 compiled on April 29 2014" />
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification" />
+    <property name="ant.file.type" value="file" />
+    <property name="java.vm.specification.version" value="1.8" />
+    <property name="sonar.sourceEncoding" value="UTF-8" />
+    <property name="sun.os.patch.level" value="unknown" />
+    <property name="sun.cpu.endian" value="little" />
+    <property name="ant.file.UT coverage with Ant and JaCoCo running tests" value="/Users/manish/Desktop/jacoco-sample/build.xml" />
+    <property name="java.io.tmpdir" value="/var/folders/sq/fscbk_112lg7wpvv_pc36fzr0000gp/T/" />
+    <property name="sonar.jdbc.url" value="jdbc:mysql://localhost:3306/sonar332?useUnicode=true&amp;characterEncoding=utf8" />
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/" />
+    <property name="java.awt.graphicsenv" value="sun.awt.CGraphicsEnvironment" />
+    <property name="os.arch" value="x86_64" />
+    <property name="sonar.dynamicAnalysis" value="reuseReports" />
+    <property name="java.ext.dirs" value="/Users/manish/Library/Java/Extensions:/Library/Java/JavaVirtualMachines/jdk1.8.0_25.jdk/Contents/Home/jre/lib/ext:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java" />
+    <property name="user.dir" value="/Users/manish/Desktop/jacoco-sample" />
+    <property name="sonar.java.coveragePlugin" value="jacoco" />
+    <property name="line.separator" value="&#xa;" />
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM" />
+    <property name="basedir" value="/Users/manish/Desktop/jacoco-sample" />
+    <property name="ant.java.version" value="1.8" />
+    <property name="ant.core.lib" value="/usr/local/Cellar/ant/1.9.4/libexec/lib/ant.jar" />
+    <property name="file.encoding" value="UTF-8" />
+    <property name="ant.file.type.UT coverage with Ant and JaCoCo running tests" value="file" />
+    <property name="java.specification.version" value="1.8" />
+    <property name="src.dir" value="src" />
+    <property name="ant.project.invoked-targets" value="test" />
+    <property name="sonar.projectKey" value="org.codehaus.sonar:example-ut-ant-jacoco-runTests" />
+  </properties>
+  <testcase classname="OneTest" name="testFoo" time="0.001" />
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
